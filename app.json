@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "Anzen",
+    "slug": "anzen",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo.jpg",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/logo.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#010137"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "Anzen"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/logo.jpg",
+        "backgroundColor": "#010137"
+      },
+      "package": "com.rvstudiodev.anzen"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/logo.jpg"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "e62a0d8d-b6c2-4153-8588-fc06ee698a53"
+      }
+    },
+    "owner": "rvstudiodev"
+  }
+}
